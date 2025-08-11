@@ -16,8 +16,10 @@ export default function ProgressTracker({
   return (
     <div className={styles.progressTracker}>
       <div className={styles.progressTitleBlock}>
-        <StarIcon />
-        <p>{title}</p>
+        <div className={styles.titleWrap}>
+          <StarIcon />
+          <p>{title}</p>
+        </div>
         <span>
           <span className={styles.unlockedAchievesAmount}>{unlocked}</span>/
           {total}

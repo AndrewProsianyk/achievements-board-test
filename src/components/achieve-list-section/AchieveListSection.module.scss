@@ -12,6 +12,10 @@
   font-size: 24px;
   color: $secondary-text-color;
   margin-bottom: 16px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 36px;
+  }
 }
 
 .titleWrap {

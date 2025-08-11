@@ -41,16 +41,22 @@
   }
 }
 
+.titleWrap {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
 .progressTitleBlock {
   width: 100%;
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  justify-content: space-between;
   margin-bottom: 16px;
   font-size: 14px;
   text-transform: uppercase;
   color: $primary-text-color;
-  align-items: center;
 }
 
 .unlockedAchievesAmount {

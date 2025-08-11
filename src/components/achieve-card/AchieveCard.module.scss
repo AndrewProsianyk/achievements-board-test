@@ -70,6 +70,13 @@
   color: $primary-text-color;
   font-size: 14px;
   line-height: 1.2;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .progressStatWrap {

@@ -43,11 +43,15 @@
 }
 
 .title {
-  font-weight: 500;
+  font-family: var(--font-museo-cyrl), sans-serif;
   font-size: 32px;
   line-height: 1.1;
   color: $secondary-text-color;
   margin-bottom: 8px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 38px;
+  }
 }
 
 .subtitle {
