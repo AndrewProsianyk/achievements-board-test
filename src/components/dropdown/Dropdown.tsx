@@ -1,5 +1,3 @@
-"use client";
-
 import useLanguageStore from "@/store/languageStore";
 import DropdownIcon from "../icons/DropdownIcon";
 import styles from "./Dropdown.module.scss";
