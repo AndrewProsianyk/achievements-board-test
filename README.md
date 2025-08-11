@@ -1,36 +1,12 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Завдання виконав на Next.js v15 з використанням Typescript, Sass та Zustand.
 
-## Getting Started
+Намагався максимально притримуватись стилізації з макету.
 
-First, run the development server:
+В папці public файл data.ts містить дані, з якими я працював під час виконання завдання.
+Я, можливо, неправильно зрозумів які досягнення відносяться до якої категорії. Зробив чорні - першого рангу, сірі - другого рангу та золоті - третього. Є досягнення, у яких просто присутній опис, а є досягнення з внутрішнім прогресом. На картках досягнень є перевірка на те, які поля присутні, і від того відбувається рендер потрібного опису або прогресу.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Я створив zustand store для зберігання мови, перемикання та перекладу. Якщо змінити значення поля language: "ua" на "en", то текст на всій сторінці зміниться на англійський варіант. В папці assets/languages є папки зі словниками для двох мов: українська та англійська, звідси і береться переклад.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Лічильник досягнень працює коректно, прогрес бари теж.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Якщо будуть питання по проєкту, з радістю відповім на них.
