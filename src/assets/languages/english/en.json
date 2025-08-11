@@ -1,0 +1,108 @@
+{
+  "achievements": {
+    "01": {
+      "title": "Documentarian",
+      "description": "Added 30 useful documents"
+    },
+    "02": {
+      "title": "Article Author",
+      "description": "For publishing 10 blog articles"
+    },
+    "03": {
+      "title": "Commentator",
+      "description": "Left 50 meaningful comments"
+    },
+    "04": {
+      "title": "Explorer",
+      "description": "Visited all sections of the platform"
+    },
+    "05": {
+      "title": "Veteran",
+      "description": "1 year of active participation in the project"
+    },
+    "06": {
+      "title": "Marathoner",
+      "description": "Daily activity for 30 days in a row"
+    },
+    "07": {
+      "title": "Helper",
+      "description": "Helped 20 users solve their questions"
+    },
+    "08": {
+      "title": "Quick Start",
+      "description": "Completed the first task in 1 day"
+    },
+    "09": {
+      "title": "Photographer",
+      "description": "Uploaded 10 images"
+    },
+    "10": {
+      "title": "Collector",
+      "description": "Collected all available badges"
+    },
+    "11": {
+      "title": "Innovator",
+      "description": "Proposed an idea that was implemented"
+    },
+    "12": {
+      "title": "Record Breaker",
+      "description": "Achieved a personal record in the ranking"
+    },
+    "13": {
+      "title": "Night Owl",
+      "description": "Active in the app after 00:00"
+    },
+    "14": {
+      "title": "Early Bird",
+      "description": "Active in the app before 06:00"
+    },
+    "15": {
+      "title": "Trailblazer",
+      "description": "Became the first to complete a new task"
+    },
+    "16": {
+      "title": "Social Butterfly",
+      "description": "Added 20 friends or follows"
+    },
+    "17": {
+      "title": "Productivity Master",
+      "description": "Completed 100 tasks"
+    },
+    "18": {
+      "title": "Critic",
+      "description": "Left 10 reviews"
+    },
+    "19": {
+      "title": "Instructor",
+      "description": "Created an educational material"
+    },
+    "20": {
+      "title": "Legend",
+      "description": "Earned all other achievements"
+    }
+  },
+  "headings": {
+    "main-section": "Achievements",
+    "platform-achieves": "Achievements on the platform",
+    "specialists-achieves": "Specialists achievements"
+  },
+  "sub-headings": {
+    "main-section": "You are better than 87% of specialists!"
+  },
+  "stat-section": {
+    "progress-title": "Achievements unlocked",
+    "first-cell-label": "Achievements unlocked of 1st rank",
+    "second-cell-label": "Achievements unlocked of 2nd rank",
+    "third-cell-label": "Achievements unlocked of 3rd rank",
+    "fourth-cell-label": "Achievements locked"
+  },
+  "filter": {
+    "first-item": "All achievements",
+    "second-item": "Platform achievements",
+    "third-item": "Specialist achievements",
+    "dropdown-label": "All ranks"
+  },
+  "card": {
+    "title": "Achievement"
+  }
+}

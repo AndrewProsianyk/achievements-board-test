@@ -1,0 +1,92 @@
+.section {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 16px;
+  border-radius: 24px;
+  border: 1px solid $main-border-color;
+  background-color: $main-background-color;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 421px;
+    height: 426px;
+    background: linear-gradient(
+      135deg,
+      rgba(185, 135, 86, 1) 0%,
+      rgba(83, 61, 39, 0) 100%
+    );
+    filter: blur(30px);
+    pointer-events: none;
+    opacity: 27%;
+    z-index: 0;
+
+    @media (min-width: $tablet-width) {
+      height: 292px;
+    }
+    @media (min-width: $desktop-width) {
+      height: 135px;
+    }
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding: 24px;
+  }
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.1;
+  color: $secondary-text-color;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 1.2;
+  color: $primary-text-color;
+}
+
+.titleWrap {
+  margin-bottom: 16px;
+}
+
+.statistics {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(101, 101, 101, 0.1);
+  background-color: $main-background-color;
+  margin-bottom: 16px;
+}
+
+.statsWrap {
+  padding: 8px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  @media (min-width: $desktop-width) {
+    flex-wrap: nowrap;
+  }
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+}

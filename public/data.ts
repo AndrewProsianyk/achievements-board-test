@@ -1,0 +1,92 @@
+import { AchieveType } from "@/lib/types";
+
+export const ACHIEVES: AchieveType[] = [
+  {
+    id: "01",
+    rank: "first",
+    title: "achievements.01.title",
+    description: "achievements.01.description",
+    isUnlocked: true,
+  },
+  {
+    id: "02",
+    rank: "first",
+    title: "achievements.02.title",
+    description: "achievements.02.description",
+    isUnlocked: true,
+  },
+  {
+    id: "03",
+    rank: "first",
+    title: "achievements.03.title",
+    description: "achievements.03.description",
+    isUnlocked: true,
+  },
+  {
+    id: "04",
+    rank: "first",
+    title: "achievements.04.title",
+    description: "achievements.04.description",
+    isUnlocked: true,
+  },
+  {
+    id: "05",
+    rank: "second",
+    title: "achievements.05.title",
+    description: "achievements.05.description",
+    isUnlocked: true,
+  },
+  {
+    id: "06",
+    rank: "second",
+    title: "achievements.06.title",
+    description: "achievements.06.description",
+    isUnlocked: true,
+  },
+  {
+    id: "07",
+    rank: "second",
+    title: "achievements.07.title",
+    description: "achievements.07.description",
+    isUnlocked: true,
+  },
+  {
+    id: "08",
+    rank: "second",
+    title: "achievements.08.title",
+
+    progressMax: 100,
+    progressCurrent: 90,
+    isUnlocked: true,
+  },
+  {
+    id: "09",
+    rank: "third",
+    title: "achievements.09.title",
+    progressMax: 30,
+    progressCurrent: 10,
+    isUnlocked: true,
+  },
+  {
+    id: "10",
+    rank: "third",
+    title: "achievements.10.title",
+    progressMax: 8,
+    progressCurrent: 2,
+    isUnlocked: true,
+  },
+  {
+    id: "11",
+    rank: "first",
+    title: "achievements.11.title",
+    description: "achievements.11.description",
+    isUnlocked: false,
+  },
+  {
+    id: "12",
+    rank: "first",
+    title: "achievements.12.title",
+    description: "achievements.08.description",
+    isUnlocked: false,
+  },
+];

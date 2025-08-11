@@ -1,0 +1,31 @@
+.progressBar {
+  width: 100%;
+  height: 30px;
+  padding: 4px;
+  display: flex;
+  // flex-direction: row;
+  gap: 4px;
+
+  border-radius: 8px;
+  border: 0.5px solid $main-border-color;
+  background-color: rgba(69, 69, 69, 0.5);
+}
+
+.unlockedProgress {
+  border-radius: 4px;
+
+  width: 50%;
+  flex-shrink: 0;
+  background: linear-gradient(
+    270deg,
+    rgb(213, 186, 148) 0%,
+    rgb(185, 135, 86) 50%,
+    rgb(83, 68, 52) 100%
+  );
+}
+
+.totalProgress {
+  flex-grow: 1;
+  border-radius: 4px;
+  background-color: #535353;
+}
